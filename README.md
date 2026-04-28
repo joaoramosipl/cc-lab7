@@ -72,5 +72,5 @@ Paste the content of deployment.yaml
 
 Then apply the Deployment:
 ```
-kubectl apply -f deployment.yaml
+kubectl apply -f ~/deployment.yaml
 ```
