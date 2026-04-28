@@ -74,3 +74,8 @@ Then apply the Deployment:
 ```
 kubectl apply -f ~/deployment.yaml
 ```
+
+Finally apply the Service:
+```
+kubectl apply -f ~/service.yaml
+```

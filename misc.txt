@@ -1,0 +1,16 @@
+curl -sfL https://get.k3s.io | sh -
+sudo kubectl get nodes
+sudo cat /etc/rancher/k3s/k3s.yaml
+
+
+Mac/Linux: ~/.kube/config
+
+Windows: C:\Users\YourName\.kube\config
+
+kubectl get nodes
+
+kubectl apply -f nginx-deployment.yaml
+
+kubectl get pods
+
+kubectl delete pod <paste-pod-name-here>
