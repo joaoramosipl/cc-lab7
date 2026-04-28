@@ -53,4 +53,7 @@ Open the Shell:
 limactl shell k8s-master
 ```
 
-
+Install K3s
+```
+curl -sfL https://get.k3s.io | sh -
+```
