@@ -57,3 +57,8 @@ Install K3s
 ```
 curl -sfL https://get.k3s.io | sh -
 ```
+
+Give right permissions to the Kubectl Config File
+```
+sudo chmod 755 /etc/rancher/k3s/k3s.yaml
+```
