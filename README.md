@@ -53,7 +53,7 @@ Open the Shell:
 limactl shell k8s-master
 ```
 
-Install K3s
+## Install and Configure K3s
 ```
 curl -sfL https://get.k3s.io | sh -
 ```
@@ -61,4 +61,16 @@ curl -sfL https://get.k3s.io | sh -
 Give right permissions to the Kubectl Config File
 ```
 sudo chmod 755 /etc/rancher/k3s/k3s.yaml
+```
+
+Create the Deployment
+```
+nano ~/deployment.yaml
+````
+
+Paste the content of deployment.yaml
+
+Then apply the Deployment:
+```
+kubectl apply -f deployment.yaml
 ```
